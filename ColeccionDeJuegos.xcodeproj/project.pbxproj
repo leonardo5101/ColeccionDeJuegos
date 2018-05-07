@@ -13,6 +13,7 @@
 		2A2BC3E92097844B007FFFF1 /* ColeccionDeJuegos.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2A2BC3E72097844B007FFFF1 /* ColeccionDeJuegos.xcdatamodeld */; };
 		2A2BC3EB2097844E007FFFF1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A2BC3EA2097844E007FFFF1 /* Assets.xcassets */; };
 		2A2BC3EE2097844E007FFFF1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A2BC3EC2097844E007FFFF1 /* LaunchScreen.storyboard */; };
+		2A2BC3F620978AC8007FFFF1 /* JuegosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A2BC3F520978AC8007FFFF1 /* JuegosViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		2A2BC3EA2097844E007FFFF1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A2BC3ED2097844E007FFFF1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A2BC3EF2097844E007FFFF1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A2BC3F520978AC8007FFFF1 /* JuegosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuegosViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				2A2BC3E02097844B007FFFF1 /* AppDelegate.swift */,
 				2A2BC3E22097844B007FFFF1 /* ViewController.swift */,
+				2A2BC3F520978AC8007FFFF1 /* JuegosViewController.swift */,
 				2A2BC3E42097844B007FFFF1 /* Main.storyboard */,
 				2A2BC3EA2097844E007FFFF1 /* Assets.xcassets */,
 				2A2BC3EC2097844E007FFFF1 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A2BC3E32097844B007FFFF1 /* ViewController.swift in Sources */,
+				2A2BC3F620978AC8007FFFF1 /* JuegosViewController.swift in Sources */,
 				2A2BC3E12097844B007FFFF1 /* AppDelegate.swift in Sources */,
 				2A2BC3E92097844B007FFFF1 /* ColeccionDeJuegos.xcdatamodeld in Sources */,
 			);
@@ -291,7 +295,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuegos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuego;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -309,7 +313,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuegos;
+				PRODUCT_BUNDLE_IDENTIFIER = com.tecsup.ColeccionDeJuego;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
